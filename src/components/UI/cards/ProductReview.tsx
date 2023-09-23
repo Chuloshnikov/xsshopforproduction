@@ -4,8 +4,8 @@ import ProgressBar from "~/components/UI/bar/ProgressBar";
 import {useWindowSize} from "~/hooks/useWindowSize";
 
 interface WindowSize {
-  width: number;
-  height: number;
+  width: string;
+  height: string;
 }
 
 export default component$(() => {

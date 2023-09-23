@@ -16,8 +16,8 @@ interface ReviewProps {
 }
 
 interface WindowSize {
-    width: number;
-    height: number;
+    width: string;
+    height: string;
   }
 
 export default component$<ReviewProps>(({review}) => {
