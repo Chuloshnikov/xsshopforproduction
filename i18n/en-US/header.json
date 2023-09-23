@@ -1,0 +1,34 @@
+{
+  "header": {
+    "product-categories" : {
+      "analToys": "Anal toys",
+      "care-products": "Care products",
+      "contraceptives": "Contraceptives",
+      "dildos": "Dildos",
+      "lingerie-clothing": "Lingerie and Clothing",
+      "smart-toys": "Smart toys",
+      "vaginalBalls": "Vaginal balls",
+      "voters": "Voters"
+    },
+    "fetish": {
+      "title": "Fetish",
+      "forFetish": "For Fetish"
+    },
+    "man": {
+      "title": "Man",
+      "forMan": "For Man"
+    },
+    "newbies": {
+      "title": "Newbies",
+      "forNewbies": "For Newbies"
+    },
+    "pairs": {
+      "title": "Pairs",
+      "forPairs": "For Pairs"
+    },
+    "woman": {
+      "title": "Woman",
+      "forWoman": "For Woman"
+    }
+  }
+}

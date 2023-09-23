@@ -1,0 +1,34 @@
+{
+  "header": {
+    "product-categories" : {
+      "analToys": "Analleksaker",
+      "care-products": "Skötselprodukter",
+      "contraceptives": "Preventivmedel",
+      "dildos": "Dildos",
+      "lingerie-clothing": "Underkläder och kläder",
+      "smart-toys": "Smart leksaker",
+      "vaginalBalls": "Vaginalkulor",
+      "voters": "Väljare"
+    },
+    "fetish": {
+      "title": "Fetisch",
+      "forFetish": "För fetisch"
+    },
+    "man": {
+      "title": "Man",
+      "forMan": "För man"
+    },
+    "newbies": {
+      "title": "Nybörjare",
+      "forWoman": "För Nybörjare"
+    },
+    "pairs": {
+      "title": "Par",
+      "forPairs": "För par"
+    },
+    "woman": {
+      "title": "Kvinna",
+      "forWoman": "För kvinna"
+    }
+  }
+}

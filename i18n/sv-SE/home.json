@@ -1,0 +1,23 @@
+{
+  "home": {
+    "categories": {
+      "beginners": "För nybörjare",
+      "man": "Man",
+      "title": "Kategorier",
+      "woman": "Kvinna"
+    },
+    "faq": {
+      "description": "Välkommen till Love Space Shop - en sexleksaksbutik online i Sverige, din ultimata destination för ett brett utbud av nöjesprodukter. Vi är stolta över att erbjuda ett omfattande urval av sexleksaker för att tillgodose alla dina önskemål. Oavsett om du letar efter en specifik sexleksak eller vill utforska vårt utbud av billiga sexleksaker så har vi något för alla. Gör dig redo att unna dig rent nöje när du köper sexleksaker och hitta den perfekta sexleksaken för att tillfredsställa dina djupaste begär! Upptäck vår stora samling sexleksaker till oslagbara priser. Vår sexleksaksbutik är dedikerad till att göra nöje överkomligt och tillgängligt för alla. Med våra sexleksaker billiga erbjudanden och spännande försäljning av sexleksaker kan du förhöja din intimitet",
+      "title": "Love Space Shop - din guide till nöjes värld."
+    },
+    "guide": {
+      "paragraph": "Vårt samhälle gör oss unika.\nDe har en energi som ekar runt omkring dem. Deras uppdrag i livet är att se till att världens under inte förbises.",
+      "subtitle": "Möt tyngdkraftens fiender",
+      "title": "Din guide till njutningens värld."
+    },
+    "hero": {
+      "paragraph": "Återuppliva dina sinnen och släpp lös dina inre passioner med våra högkvalitativa produkter för intima upplevelser.",
+      "title": "Omfamna dina önskningar med sexleksaker från Love Space Shop"
+    }
+  }
+}
