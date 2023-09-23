@@ -21,7 +21,7 @@ export default component$(() => {
     const menu = useCatalogPaths();
     const darken = useContext(darkenContext);
     return (
-       <header class={'w-screen relative flex justify-center'}
+       <header class={'max-w-[1280px] mx-auto relative flex justify-center'}
            onMouseLeave$={() => {
                if (currCategory.value) {
                    currCategory.value = ''
@@ -29,7 +29,7 @@ export default component$(() => {
                }
            }}
        >
-            <div class={`fixed z-[100] h-[68px] w-[calc(100%-20px)] xl:w-[calc(100%-44px)] bg-white rounded-xl transition-[top] duration-200 ease-linear ${!visible.value ? '-top-24' : 'top-2.5'}
+            <div class={`max-w-[1236px] fixed z-[100] h-[68px] w-[calc(100%-20px)] xl:w-[calc(100%-44px)] bg-bg rounded-xl transition-[top] duration-200 ease-linear ${!visible.value ? '-top-24' : 'top-2.5'}
             px-4 xl:px-3 flex justify-between items-center`}>
                 <Link href={loc.url.pathname === '/' ? '#logo' : '/'}>
                     <IconLogo />

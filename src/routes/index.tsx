@@ -12,13 +12,15 @@ import {Speak} from "qwik-speak";
 export default component$(() => {
     return (
         <Speak assets={['home']}>
-            <Hero/>
-            <BestSellers/>
-            <GuideInfo/>
-            <Categories/>
-            <NewProducts/>
-            <News/>
-            <FAQ/>
+            <div>
+                <Hero/>
+                <BestSellers/>
+                <GuideInfo/>
+                <Categories/>
+                <NewProducts/>
+                <News/>
+                <FAQ/>
+            </div>
         </Speak>
     );
 });

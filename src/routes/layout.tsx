@@ -29,11 +29,15 @@ export default component$(() => {
     return (
         <>
             <Speak assets={['header', 'footer']}>
+                <div
+                class="max-w-[1280px] mx-auto"
+                >
                 <Header/>
-                <main class={`bg-bg min-h-screen ${darken.value && 'brightness-50'}`}>
-                    <Slot/>
-                </main>
+                    <main class={`bg-bg min-h-screen ${darken.value && 'brightness-50'}`}>
+                        <Slot/>
+                    </main>
                 <Footer/>
+                </div>
             </Speak>
         </>
     )
