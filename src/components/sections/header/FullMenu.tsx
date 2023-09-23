@@ -39,7 +39,7 @@ export default component$<MenuProps>(({menu}) => {
     });
 
     return (
-        <div class={'fixed mt-[78px] z-[100] w-[calc(100%-81px)]'}>
+        <div class={'max-w-[1200px] fixed mt-[78px] z-[100] w-[calc(100%-81px)]'}>
             <div class={'h-1.5 w-[calc(100%-81px)]'}></div>
             <div class={'bg-white h-[517px] rounded-xl flex'}>
                 <aside class={'h-full border-r-[1px] w-[214px] border-[#CCC] flex flex-col gap-4 py-[47.5px] pl-8'}>
