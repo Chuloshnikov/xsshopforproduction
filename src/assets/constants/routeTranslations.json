@@ -1,0 +1,64 @@
+[
+  [
+    {
+      "lang": "en-US",
+      "path": "/en-US/about-us/"
+    },
+    {
+      "lang": "sv-SE",
+      "path": "/om-oss/"
+    }
+  ],
+  [
+    {
+      "lang": "en-US",
+      "path": "/en-US/"
+    },
+    {
+      "lang": "sv-SE",
+      "path": "/"
+    }
+  ],
+  [
+    {
+      "lang": "en-US",
+      "path": "/en-US/contacts/"
+    },
+    {
+      "lang": "sv-SE",
+      "path": "/kontakter/"
+    }
+  ],
+  [
+    {
+      "lang": "en-US",
+      "path": "/en-US/catalog/"
+    },
+    {
+      "lang": "sv-SE",
+      "path": "/katalog/"
+    }
+  ],
+  [
+    {
+      "lang": "en-US",
+      "path": "/en-US/product/"
+    },
+    {
+      "lang": "sv-SE",
+      "path": "/produkt/"
+    }
+  ],
+  [
+    {
+      "lang": "en-US",
+      "path": "/en-US/checkout-order/"
+    },
+    {
+      "lang": "sv-SE",
+      "path": "/kassaorder/"
+    }
+  ]
+]
+
+
