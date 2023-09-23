@@ -3,8 +3,13 @@ import Splitter from "~/components/UI/splitter/Splitter";
 import ProgressBar from "~/components/UI/bar/ProgressBar";
 import {useWindowSize} from "~/hooks/useWindowSize";
 
+interface WindowSize {
+  width: number;
+  height: number;
+}
+
 export default component$(() => {
-    const {width} = useWindowSize();
+    const {width}: WindowSize = useWindowSize();
     console.log(width);
     return (
         <div class={'flex flex-col gap-6 p-6 bg-white rounded-[20px] lg:flex-row lg:gap-12 h-fit lg:w-[648px]'}>
