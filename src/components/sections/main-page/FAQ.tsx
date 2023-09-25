@@ -1,5 +1,5 @@
 import {component$} from "@builder.io/qwik";
-import Accordion from "~/components/UI/accordion/Accordion";
+import Accordion from "~/components/UI/accordion/SplittedAccordion";
 import {useTranslate} from "qwik-speak";
 
 
