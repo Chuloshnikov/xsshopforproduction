@@ -20,7 +20,7 @@ export default component$(() => {
                     {t('home.guide.paragraph')}
                 </p>
             </div>
-            <ImageBig class={'w-full lg:w-[310px] xl:w-[495px] lg:mt-20'} alt={"LELO light vibrator"}
+            <ImageBig class={'w-full lg:w-[310px] xl:w-[495px] lg:mt-20 rounded-3xl'} alt={"LELO light vibrator"}
                       title={"LELO purple vibrator for woman"}/>
             <ImageSmall class={'absolute z-10 bottom-[43px] w-[112px] h-[106px] xl:w-[193px] xl:h-[182px] rounded-2xl'}
                 alt={"LELO vibrator package"} title={"LELO package with purple vibrator"}/>
