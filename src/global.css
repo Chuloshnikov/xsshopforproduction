@@ -66,3 +66,27 @@ body {
   line-height: inherit;
 }
 
+.hoverLinkParent .linkToShow {
+  display: none;
+}
+
+
+.hoverLinkParent:hover .linkToShow {
+  display: flex;
+}
+
+.hoverLinkParent img {
+  transition: transform 0.3s;  
+  border-radius: 16px;
+}
+
+.hoverLinkParent:hover img {
+  transform: scale(1.182);
+}
+
+
+.transition {
+  transition: all 0.3s ease 0s;
+}
+
+
