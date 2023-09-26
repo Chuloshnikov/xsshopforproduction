@@ -30,7 +30,7 @@ export default component$(() => {
         <>
             <Speak assets={['header', 'footer']}>
                 <div
-                class="max-w-[1280px] mx-auto"
+                class="max-w-container mx-auto"
                 >
                 <Header/>
                     <main class={`bg-bg min-h-screen ${darken.value && 'brightness-50'}`}>

@@ -59,7 +59,7 @@ export default component$(() => {
     useContextProvider(ShippingContext, shippingData);
     useContextProvider(PaymentContext, paymentStore);
     return (
-        <section class={'py-24 xl:py-[130px] px-2.5 lg:px-7 xl:px-10 flex flex-col gap-2'}>
+        <section class={'max-w-container py-24 xl:py-[130px] px-2.5 lg:px-7 xl:px-10 flex flex-col gap-2'}>
             <div class={'flex flex-col gap-[21px]'}>
                 <h1 class={'text-center text-main font-medium text-2xl xl:text-5xl leading-[120%]'}>You're almost
                     there!</h1>

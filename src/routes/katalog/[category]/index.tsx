@@ -33,7 +33,7 @@ export default component$(() => {
     const filters = useStore<FilterStore>(defaultFiltersObj);
     useContextProvider(FilterContext, filters);
     return (
-        <section class={'py-32 flex flex-col px-2.5 lg:px-[26px] xl:px-10 gap-8'}>
+        <section class={'max-w-container py-32 flex flex-col px-2.5 lg:px-[26px] xl:px-10 gap-8'}>
             <h1 class={'text-center font-medium text-4xl xl:text-7xl leading-[39.6px] xl:leading-[79.2px] text-main'}>
                 Shop all
             </h1>

@@ -5,7 +5,7 @@ import MessageForm from "~/components/sections/contact-page/MessageForm";
 
 export default component$(() => {
     return (
-        <section class={'py-[95px] lg:py-[88px] xl:py-[159px] px-2.5 lg:px-7 xl:px-10 flex flex-col gap-12'}>
+        <section class={'max-w-container py-[95px] lg:py-[88px] xl:py-[159px] px-2.5 lg:px-7 xl:px-10 flex flex-col gap-12'}>
             <div class={'flex flex-col gap-6'}>
                 <h1 class={'text-main text-[32px] lg:text-[56px] font-medium leading-[35.2px] lg:leading-[61.6px] lg:w-[600px]'}>
                     Get in touch with LoveSpace

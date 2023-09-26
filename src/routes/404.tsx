@@ -3,7 +3,7 @@ import {Link} from "@builder.io/qwik-city";
 import Image from '~/assets/images/for_404.png?jsx'
 export default component$(() => {
     return (
-        <section class={'flex flex-col items-center text-center justify-center gap-1.5 w-screen h-screen px-2.5'}>
+        <section class={'max-w-container flex flex-col items-center text-center justify-center gap-1.5 w-screen h-screen px-2.5'}>
             <div class={'relative'}>
                 <h1 class={'text-[76px] text-main xl:text-[120px] font-medium leading-[110%] tracking-wider'}>
                     404

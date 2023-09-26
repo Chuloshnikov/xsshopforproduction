@@ -17,6 +17,9 @@ module.exports = {
     },
 
     extend: {
+      maxWidth: {
+        container: "1280px",
+      },
       lineHeight: {
         small: "1.1",
         md: "1.2",
