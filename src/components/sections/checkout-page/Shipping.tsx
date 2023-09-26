@@ -1,7 +1,7 @@
 import {$, component$, PropFunction, useContext} from "@builder.io/qwik";
 import CheckoutInput from "~/components/UI/input/text/CheckoutInput";
 import ApplyButton from "~/components/UI/button/ApplyButton";
-import {ShippingContext} from "~/routes/kassaorder";
+import {ShippingContext} from "~/routes/ordercard";
 
 export default component$<{onSave$: PropFunction<any>}>(({onSave$}) => {
     const shippingData = useContext(ShippingContext);

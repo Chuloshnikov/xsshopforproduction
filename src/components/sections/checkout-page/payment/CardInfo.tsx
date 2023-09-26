@@ -1,6 +1,6 @@
 import {$, component$, useContext} from "@builder.io/qwik";
 import CardInfoInput from "~/components/UI/input/text/CardInfoInput";
-import {PaymentContext} from "~/routes/kassaorder";
+import {PaymentContext} from "~/routes/ordercard";
 
 export default component$(() => {
     const paymentStore = useContext(PaymentContext);
