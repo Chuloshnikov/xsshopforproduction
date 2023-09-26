@@ -81,7 +81,9 @@ export default component$(() => {
                         <div
                             class="flex flex-col justify-end items-end -ml-10 xl:-mb-[40px]"
                             >
-                            <div>
+                            <div
+                            class="cursor-pointer"
+                            >
                                 <UpButton onClick$={smoothScrollToTop}/>
                             </div>
                         </div>
