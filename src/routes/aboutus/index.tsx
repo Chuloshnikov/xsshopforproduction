@@ -8,7 +8,7 @@ import type {DocumentHead} from "@builder.io/qwik-city";
 
 export default component$(() => {
     return (
-        <section class={'px-2.5 lg:px-7 xl:px-10 py-[141px] lg:py-[101px] xl:py-195px flex flex-col gap-4 lg:gap-[79px] xl:gap-[90px]'}>
+        <section class={'max-w-container px-2.5 lg:px-7 xl:px-10 py-[141px] lg:py-[101px] xl:py-195px flex flex-col gap-4 lg:gap-[79px] xl:gap-[90px]'}>
             <Main/>
             <AboutUs/>
             <OurMission/>

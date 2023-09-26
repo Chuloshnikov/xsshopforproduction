@@ -1,7 +1,7 @@
 import {component$, useContext} from "@builder.io/qwik";
 import CheckoutInput from "~/components/UI/input/text/CheckoutInput";
 import ApplyButton from "~/components/UI/button/ApplyButton";
-import {ShippingContext} from "~/routes/kassaorder";
+import {ShippingContext} from "~/routes/ordercard";
 import CardInfo from "~/components/sections/checkout-page/payment/CardInfo";
 import {Link} from "@builder.io/qwik-city";
 

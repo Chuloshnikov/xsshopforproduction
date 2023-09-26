@@ -3,7 +3,7 @@ import IconArrowDown from "~/components/UI/icons/IconArrowDown";
 import type {CardProps} from "~/components/UI/cards/CheckoutProduct";
 import CheckoutProduct from "~/components/UI/cards/CheckoutProduct";
 import Splitter from "~/components/UI/splitter/Splitter";
-import {ShippingContext} from "~/routes/kassaorder";
+import {ShippingContext} from "~/routes/ordercard";
 
 export default component$<{ cart: CardProps[], isShipping: boolean }>(({cart, isShipping}) => {
     const opened = useSignal(true);
