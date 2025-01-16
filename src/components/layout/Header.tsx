@@ -49,7 +49,7 @@ export default component$(() => {
                 </nav>
                 <div class={'flex items-center gap-2.5 xl:gap-5'}>
                     <IconSearch/>
-                    <LanguageDropDown class={'hidden xl:block'}/>
+                    <LanguageDropDown class={'hidden xl:block text-main font-medium'}/>
                     <IconHeartBig/>
                     <Profile/>
                     <Cart/>
